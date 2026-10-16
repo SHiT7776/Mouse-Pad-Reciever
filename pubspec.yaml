@@ -1,0 +1,20 @@
+name: mouse_pad_receiver
+description: "Windows companion for the Mouse Pad phone app: turns its touches into mouse and keyboard input over USB."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ffi: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
